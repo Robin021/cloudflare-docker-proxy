@@ -16,6 +16,7 @@ CUSTOM_DOMAIN = "docker.memes.xin"
 
 [env.production]
 name = "cloudflare-docker-proxy"
+main = "index.js" 
 # routes = [
 #   { pattern = "docker.libcuda.so", custom_domain = true },
 #   { pattern = "quay.libcuda.so", custom_domain = true },
