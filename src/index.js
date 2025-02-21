@@ -5,6 +5,7 @@ addEventListener("fetch", (event) => {
 
 const dockerHub = "https://registry-1.docker.io";
 const CUSTOM_DOMAIN = "memes.xin"
+const MODE = "product"
 const routes = {
   // production
   ["docker." + CUSTOM_DOMAIN]: dockerHub,
