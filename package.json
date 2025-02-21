@@ -1,9 +1,10 @@
 {
   "name": "cloudflare-docker-proxy",
   "private": true,
-  "description": "",
+  "description": "A proxy for Cloudflare Workers using Docker",
   "version": "1.0.0",
   "author": "ciiiii <allen.cccccnm@gmail.com>",
+  "packageManager": "yarn@4.5.0",
   "dependencies": {},
   "devDependencies": {
     "prettier": "^2.4.1",
